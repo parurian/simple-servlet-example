@@ -22,7 +22,6 @@ public class TaskServlet extends HttpServlet {
 
     private final static TaskDAO taskDAO = new TaskDAOImpl();
 
-
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
