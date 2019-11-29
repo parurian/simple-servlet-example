@@ -15,6 +15,9 @@ import java.util.List;
  */
 public class TaskDAOImpl implements TaskDAO {
 
+
+    // TODO implement database querying here
+
     private List<Task> tasks = new ArrayList<>();
 
     @Override
